@@ -7,4 +7,4 @@ $obj = new ObjectCollection($collection);
 $obj->setComparator(new DateComparator());
 $elements = $obj->sort();
 $firstElement = array_shift($elements);
-echo $firstElement;
+echo $firstElement; 
